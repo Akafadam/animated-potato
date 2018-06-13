@@ -1,16 +1,33 @@
-
-.text-center{
-	text-align: center;
-	margin-top: 100px;
+body {
+	background-color: black; 
 }
 
-#email-label{
-	position: relative;
-	left: -25px;
+a {
+	color: purple;
+	display:block;
 }
 
-#password-label{
-	position: relative;
-	left: -45px;
+a:hover {
+	color: blue;
 }
 
+.form{
+	margin-top: 7%;
+	margin-left: 3%;
+	color:white;
+}
+
+.header{
+	margin-left: 3%;
+	margin-top:0%;
+	width: 100px;
+	background-color: #008080;
+	color:white;
+}
+
+.link-text {
+	display:block;
+	float:right;
+	margin-right: 10%;
+	margin-top:0%;
+}
